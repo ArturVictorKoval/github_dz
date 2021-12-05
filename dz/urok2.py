@@ -1,0 +1,8 @@
+digit = float(input("введите четырехзначное число"))
+x, y = divmod(digit, 100)
+a, b = divmod(x, 10)
+c, d = divmod(y, 10)
+print(a)
+print(b)
+print(c)
+print(d)
