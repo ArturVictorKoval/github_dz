@@ -10,7 +10,7 @@ elif what == "-":
     c = a - b
     print("Результат: " + str(c))
 elif what == "/":
-    if b ==0:
+    if b == 0:
         print("на ноль делить нельзя")
     else:
         c = a / b
