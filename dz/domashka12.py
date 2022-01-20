@@ -1,7 +1,5 @@
 # Калькулятор
 import math
-y = True
-n = False
 con = "y"
 while con == "y":
     what = input("Выберите операцию (+,-,/,*): ")
