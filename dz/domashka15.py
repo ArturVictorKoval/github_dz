@@ -12,7 +12,7 @@ to_readable(466289) -> 5 дней, 09:31:29
 to_readable(8639999) -> 99 дней, 23:59:59"""
 import datetime
 from datetime import timedelta
-t = int(input())
+t = int(input("Введите число: "))
 if 0 > t or t > 8639999:
     print("Введите число от 0 до 8639999")
 elif  t < 86400:
